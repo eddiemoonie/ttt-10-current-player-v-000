@@ -10,8 +10,8 @@ end
 
 def current_player(board)
   if turn_count(board).odd?
-    "X"
-  elsif turn_count(board).even?
     "O"
+  elsif turn_count(board).even?
+    "X"
   end
 end
